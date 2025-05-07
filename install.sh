@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-HOST=${HOST:-xxx.deepnoteproject.com}
+HOST=${HOST:-example.deepnoteproject.com}
 wget https://github.com/XTLS/Xray-core/releases/download/v25.3.6/Xray-linux-64.zip
 unzip Xray-linux-64.zip
 wget https://raw.githubusercontent.com/vevc/deepnote/main/config.json
